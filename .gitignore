@@ -1,0 +1,10 @@
+# files
+*.parquet
+*.txt
+Pipfile
+
+# folders
+*._cache/
+venv/
+.vscode/
+
