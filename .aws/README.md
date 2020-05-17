@@ -17,6 +17,8 @@
 
 ## 4. Install dependencies
 
+`pip install -r requirements.txt`
+
 # Instructions for operating the scripts
 
 ## 1. Run the scripts in the following order, like so:
