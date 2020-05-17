@@ -32,11 +32,15 @@
 
 ### i. Make sure you're properly connected to AWS via the terminal, by running Amazon's configuration tool, like so, and following the wizard. You'll be asked for credentials corresponding to the user you want to connect to.
 
-### `configure aws cli`
+### `aws configure`
 
 ### ii. To generate the bucket enter:
 
 ### `python generate_bucket.py`
+
+### iii. To upload the parquet file, enter:
+
+### `python upload_file_to_s3.py`
 
 ## 3. Create an IAM Role that gives Read & List access to the S3 bucket and upload the parquet file to the bucket. Run the following command:
 
