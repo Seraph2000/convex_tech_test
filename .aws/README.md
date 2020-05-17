@@ -1,4 +1,4 @@
-#### Note: I am usuming you are gong to be running the scripts using Mac of Linux operating systems.
+#### *Note: I am usuming you are gong to be running the scripts using Mac of Linux operating systems.*
 
 # Instructions for installation
 
