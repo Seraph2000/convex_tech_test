@@ -1,1 +1,0 @@
-# convex_tech_test
