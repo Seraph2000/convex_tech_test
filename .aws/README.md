@@ -3,15 +3,15 @@
 # Instructions for installation
 
 
-## 1. Create a virtual environment
+## 1. Create a virtual environment.
 
 `virtualenv --python=<path-to-python3> venv`
 
-## 2. activate virtual environment
+## 2. activate virtual environment.
 
 `source venv/bin/activate`
 
-## 3. Clone the code from GitHub
+## 3. Clone the code from GitHub.
 
 `git clone git@github.com:Seraph2000/convex_tech_test.git`
 
@@ -19,14 +19,14 @@
 
 # Instructions for operating the scripts
 
-## 1. Run the scripts in the following order, like so
+## 1. Run the scripts in the following order, like so:
 
-### i. Create a Parquet file locally, with some data in it. Run the following command ti do this:
+### i. Create a Parquet file locally, with some data in it. Run the following command to do this:
 
 #### `python create_parquet_file.py`
 
 
-## 2. Create an S3 bucket, and uploads the parquet file to the bucket.
+## 2. Create an S3 bucket, and upload the parquet file to the bucket.
 
 ### i. Make sure you're properly connected to AWS via the terminal, by running Amazon's configuration tool, like so, and following the wizard. You'll be asked for credentials corresponding to the user you want to connect to.
 
@@ -41,11 +41,11 @@
 ### i. `python `
 
 
-## 4. Spin up an EC2 instance that has the above IAM Role attached
+## 4. Spin up an EC2 instance that has the above IAM Role attached.
 
 
-## 5. Install R on the EC2 instance and generate a parquet reader script
+## 5. Install R on the EC2 instance and generate a parquet reader script.
 
 
-## 7. Run the “Parquet Reader” R Script, inside the EC2 instance
+## 7. Run the *Parquet Reader* R Script, inside the EC2 instance.
 
