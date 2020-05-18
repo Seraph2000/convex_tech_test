@@ -49,6 +49,19 @@
 
 ## 4. Spin up an EC2 instance that has the above IAM Role attached.
 
+### iii. Run the following script, to generate key pair for ec2 instance:
+
+    `python generate_key_pair.py'
+
+### ii. Make sure you change the mode of the key pair file to read-only using the following command 
+# in bash terminal, otherwise it will be denied access.
+
+    `chmod 400 ec2-keypair.pem`
+
+### iii. Run the following to create the ec2 instance
+
+    `python generate_ec2.py`
+
 
 ## 5. Install R on the EC2 instance and generate a parquet reader script.
 
